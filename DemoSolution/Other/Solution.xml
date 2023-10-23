@@ -80,14 +80,105 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="1" schemaName="dyn365bc_contact_v2_0" behavior="0" />
       <RootComponent type="80" schemaName="cr9b4_ContactSampleApp" behavior="0" />
     </RootComponents>
     <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="cdm_company" displayName="Company" solution="Dynamics365Company (2.0.777.412)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="10" schemaName="dyn365bc_contact_company" displayName="dyn365bc_contact_company" parentSchemaName="cdm_company" parentDisplayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="dyn365bc_contact_v2_0" displayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="dyn365bc_contact_v2_0" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="dyn365bc_contact_v2_0" displayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="10" schemaName="dyn365bc_contact_company" displayName="dyn365bc_contact_company" parentSchemaName="cdm_company" parentDisplayName="Company" />
+      </MissingDependency>
       <MissingDependency>
         <Required type="1" schemaName="dyn365bc_contact_v2_0" displayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
           <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
         </Required>
         <Dependent type="80" schemaName="cr9b4_ContactSampleApp" displayName="ContactSampleApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="dyn365bc_contact_company" displayName="dyn365bc_contact_company" parentSchemaName="cdm_company" parentDisplayName="Company" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="10" schemaName="dyn365bc_contact_company" displayName="dyn365bc_contact_company" parentSchemaName="cdm_company" parentDisplayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cdm_companycode" displayName="Company Code" parentSchemaName="cdm_company" parentDisplayName="Company" solution="Dynamics365Company (2.0.777.412)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="10" schemaName="dyn365bc_contact_company" displayName="dyn365bc_contact_company" parentSchemaName="cdm_company" parentDisplayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cdm_companyid" displayName="Company" parentSchemaName="cdm_company" parentDisplayName="Company" solution="Dynamics365Company (2.0.777.412)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="10" schemaName="dyn365bc_contact_company" displayName="dyn365bc_contact_company" parentSchemaName="cdm_company" parentDisplayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="dyn365bc_city" displayName="City" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" id="{0f4f5e2c-685f-d242-ace4-e74dc02cb5ba}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="dyn365bc_city" displayName="City" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{4a6e67dd-98ce-0e23-1123-c690777b8e7e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="dyn365bc_companylookup_id" displayName="Company" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="10" schemaName="dyn365bc_contact_company" displayName="dyn365bc_contact_company" parentSchemaName="cdm_company" parentDisplayName="Company" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="dyn365bc_contact_v2_0id" displayName="Id" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" id="{0f4f5e2c-685f-d242-ace4-e74dc02cb5ba}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="dyn365bc_displayname" displayName="Display Name" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" id="{0f4f5e2c-685f-d242-ace4-e74dc02cb5ba}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="dyn365bc_displayname" displayName="Display Name" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{4a6e67dd-98ce-0e23-1123-c690777b8e7e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="dyn365bc_email" displayName="Email" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{4a6e67dd-98ce-0e23-1123-c690777b8e7e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)" id="{0f4f5e2c-685f-d242-ace4-e74dc02cb5ba}">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="dyn365bc_contact_v2_0" parentDisplayName="Contact" id="{0f4f5e2c-685f-d242-ace4-e74dc02cb5ba}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)" id="{4a6e67dd-98ce-0e23-1123-c690777b8e7e}">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{4a6e67dd-98ce-0e23-1123-c690777b8e7e}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0f4f5e2c-685f-d242-ace4-e74dc02cb5ba}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="dyn365bc_displayname" select="1" icon="1" preview="1">
+        <row name="result" id="dyn365bc_contact_v2_0id">
+          <cell name="dyn365bc_displayname" width="300" />
+          <cell name="dyn365bc_city" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="dyn365bc_contact_v2_0">
+          <attribute name="dyn365bc_contact_v2_0id" />
+          <attribute name="dyn365bc_displayname" />
+          <attribute name="dyn365bc_city" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Contacts" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

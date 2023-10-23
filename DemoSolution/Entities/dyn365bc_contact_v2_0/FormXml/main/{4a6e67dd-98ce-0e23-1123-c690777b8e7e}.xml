@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4a6e67dd-98ce-0e23-1123-c690777b8e7e}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{39665ca0-393d-47bb-b6be-e7a78c83c206}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c9a7674a-7b92-ed5b-2a20-40dfe158ae1e}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{43419196-447c-7221-5553-ea0b9bf1553e}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Display Name" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47d7bf36-0425-48cf-a529-cccd8c13a31c}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="dyn365bc_email" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="dyn365bc_email" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02f97d45-3fa6-470f-8746-cc3970da19c3}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                        </labels>
+                        <control id="dyn365bc_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="dyn365bc_city" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{cfb22220-cd68-4d6f-b4f6-15deb537aa9b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{853e1f22-9c0e-4e8f-b62e-fa3ead9ad49f}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2e54cef0-08b3-4707-8f1e-a64919f0eec1}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ba1f0b02-ea67-4c10-a794-d93bce41368b}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{a779ff08-db98-4a04-a965-2f6e2ac038b0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{d3464524-1f61-4680-97bc-425d981fea67}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{be7641a7-a6ad-4398-827d-abc1a6fbf5f9}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bf58f3ef-d9fe-4635-9ecc-7000664399e9}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
