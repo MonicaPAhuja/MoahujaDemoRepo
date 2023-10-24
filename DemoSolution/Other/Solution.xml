@@ -81,6 +81,7 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="dyn365bc_contact_v2_0" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_businesscentralvirtualentity" behavior="2" />
       <RootComponent type="181" id="{176ef560-f28d-4f49-ac9f-ae05f07242b3}" schemaName="BusinessCentralVirtualEntity" behavior="0" />
       <RootComponent type="183" id="{a3c3eac9-591f-4119-bdc6-3f52ff988514}" schemaName="Business Central" behavior="0" />
       <RootComponent type="20" behavior="0" parentId="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
@@ -118,6 +119,12 @@
           <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
         </Required>
         <Dependent type="80" schemaName="cr9b4_ContactSampleApp" displayName="ContactSampleApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_businesscentralvirtualentity" displayName="Business Central Virtual Data Source Configuration" solution="MicrosoftBusinessCentralVESupport (1.0.23286.1)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_businesscentralvirtualentity" displayName="Business Central Virtual Data Source Configuration" />
       </MissingDependency>
       <MissingDependency>
         <Required type="10" schemaName="dyn365bc_contact_company" displayName="dyn365bc_contact_company" parentSchemaName="cdm_company" parentDisplayName="Company" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
