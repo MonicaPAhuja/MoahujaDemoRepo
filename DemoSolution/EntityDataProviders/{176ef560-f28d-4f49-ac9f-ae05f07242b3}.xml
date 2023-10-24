@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDataProvider xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityDataProviderId>{176ef560-f28d-4f49-ac9f-ae05f07242b3}</EntityDataProviderId>
+  <Name>BusinessCentralVirtualEntity</Name>
+  <DataSourceLogicalName>msdyn_businesscentralvirtualentity</DataSourceLogicalName>
+  <IsCustomizable>1</IsCustomizable>
+  <RetrievePluginTypeId>63cd0077-e8d8-4337-9825-e12d0e2cbfb0</RetrievePluginTypeId>
+  <RetrieveMultiplePluginTypeId>63cd0077-e8d8-4337-9825-e12d0e2cbfb0</RetrieveMultiplePluginTypeId>
+  <CreatePluginTypeId>63cd0077-e8d8-4337-9825-e12d0e2cbfb0</CreatePluginTypeId>
+  <UpdatePluginTypeId>63cd0077-e8d8-4337-9825-e12d0e2cbfb0</UpdatePluginTypeId>
+  <DeletePluginTypeId>63cd0077-e8d8-4337-9825-e12d0e2cbfb0</DeletePluginTypeId>
+</EntityDataProvider>

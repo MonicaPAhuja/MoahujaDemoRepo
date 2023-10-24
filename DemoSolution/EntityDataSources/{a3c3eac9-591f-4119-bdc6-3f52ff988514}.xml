@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDataSource EntityDataSourceId="{a3c3eac9-591f-4119-bdc6-3f52ff988514}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Business Central</Name>
+  <ConnectionDefinition>%7B%0D%0A++%22AadUserId%22%3A+null%2C%0D%0A++%22APIManagedPrefix%22%3A+%22dyn365bc%22%2C%0D%0A++%22APIManagedSolutionName%22%3A+%22MicrosoftBusinessCentralERPVE%22%2C%0D%0A++%22Business+Central+Virtual+Entity+ID%22%3A+%22a3c3eac9-591f-4119-bdc6-3f52ff988514%22%2C%0D%0A++%22DefaultCompany%22%3A+%227368d553-0c5c-ee11-8df4-6045bdc89477%22%2C%0D%0A++%22Environment%22%3A+%22Directions%22%2C%0D%0A++%22Name%22%3A+%22Business+Central%22%2C%0D%0A++%22ODataAuthorizationHeader%22%3A+null%2C%0D%0A++%22TargetHost%22%3A+%22https%3A%2F%2Fapi.businesscentral.dynamics.com%22%2C%0D%0A++%22TenantID%22%3A+%22%22%0D%0A%7D</ConnectionDefinition>
+  <EntityDataProviderId>{176ef560-f28d-4f49-ac9f-ae05f07242b3}</EntityDataProviderId>
+  <IsCustomizable>1</IsCustomizable>
+</EntityDataSource>
