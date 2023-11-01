@@ -1,0 +1,10 @@
+<environmentvariabledefinition schemaname="new_BCEnvironment">
+  <displayname default="BCEnvironment">
+    <label description="BCEnvironment" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.3.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>
