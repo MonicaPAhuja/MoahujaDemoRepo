@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.23093.252" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.23094.220" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>DemoSolution</UniqueName>
     <LocalizedNames>
       <LocalizedName description="DemoSolution" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.0</Version>
+    <Version>1.0.4.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherorgfd933a22</UniqueName>
@@ -112,6 +112,12 @@
         <Required type="1" schemaName="dyn365bc_contact_v2_0" displayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
           <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
         </Required>
+        <Dependent type="50" schemaName="dyn365bc_contact_v2_0:RibbonDiffXml" displayName="dyn365bc_contact_v2_0:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="dyn365bc_contact_v2_0" displayName="Contact" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
         <Dependent type="62" schemaName="cr9b4_ContactSampleApp" />
       </MissingDependency>
       <MissingDependency>
@@ -127,6 +133,12 @@
         <Dependent type="1" schemaName="msdyn_businesscentralvirtualentity" displayName="Business Central Virtual Data Source Configuration" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="1" schemaName="msdyn_businesscentralvirtualentity" displayName="Business Central Virtual Data Source Configuration" solution="MicrosoftBusinessCentralVESupport (1.0.23286.1)">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="181" schemaName="BusinessCentralVirtualEntity" displayName="BusinessCentralVirtualEntity" id="{176ef560-f28d-4f49-ac9f-ae05f07242b3}" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="10" schemaName="dyn365bc_contact_company" displayName="dyn365bc_contact_company" parentSchemaName="cdm_company" parentDisplayName="Company" solution="MicrosoftBusinessCentralERPVE (1.0.0.0)">
           <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
         </Required>
@@ -137,12 +149,6 @@
           <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
         </Required>
         <Dependent type="181" schemaName="BusinessCentralVirtualEntity" displayName="BusinessCentralVirtualEntity" id="{176ef560-f28d-4f49-ac9f-ae05f07242b3}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="181" schemaName="BusinessCentralVirtualEntity" displayName="BusinessCentralVirtualEntity" solution="MicrosoftBusinessCentralVESupport (1.0.23286.1)" id="{176ef560-f28d-4f49-ac9f-ae05f07242b3}">
-          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
-        </Required>
-        <Dependent type="183" schemaName="Business Central" displayName="Business Central" id="{a3c3eac9-591f-4119-bdc6-3f52ff988514}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="183" schemaName="Business Central" displayName="Business Central" solution="MicrosoftBusinessCentralERPCatalog (1.0.23286.1)" id="{a3c3eac9-591f-4119-bdc6-3f52ff988514}">
@@ -223,6 +229,12 @@
       <MissingDependency>
         <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
         <Dependent type="80" schemaName="cr9b4_ContactSampleApp" displayName="ContactSampleApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="90" schemaName="Microsoft.Dynamics.BCVirtualEntity.Plugins.VirtualEntityPlugin, Microsoft.Dynamics.BCVirtualEntity.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.Dynamics.BCVirtualEntity.Plugins.VirtualEntityPlugin" solution="MicrosoftBusinessCentralVESupport (1.0.23286.1)" id="{63cd0077-e8d8-4337-9825-e12d0e2cbfb0}">
+          <package>MicrosoftBusinessCentralVEAnchor (1.0.23286.1)</package>
+        </Required>
+        <Dependent type="181" schemaName="BusinessCentralVirtualEntity" displayName="BusinessCentralVirtualEntity" id="{176ef560-f28d-4f49-ac9f-ae05f07242b3}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
